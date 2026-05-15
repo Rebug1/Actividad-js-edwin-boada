@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "numero": "101",
+    "tipo": "Standard Single",
+    "precio": 60,
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "numero": "102",
+    "tipo": "Double Deluxe",
+    "precio": 120,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "numero": "103",
+    "tipo": "Executive Suite",
+    "precio": 250,
+    "disponible": false
+  },
+  {
+    "id": 4,
+    "numero": "201",
+    "tipo": "Standard Single",
+    "precio": 60,
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "numero": "202",
+    "tipo": "Double Deluxe",
+    "precio": 120,
+    "disponible": false
+  },
+  {
+    "id": 6,
+    "numero": "203",
+    "tipo": "Presidential Suite",
+    "precio": 500,
+    "disponible": true
+  }
+]

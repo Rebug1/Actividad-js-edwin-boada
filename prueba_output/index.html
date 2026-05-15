@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Edwin boada"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReservaHotel - Dashboard de Gestión</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🏨 Grand Horizon Hotel</div>
+        <div class="stats-card">
+            <span>Ingresos Estimados Actuados:</span>
+            <strong id="total-ingresos">$0</strong>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sección de Filtros -->
+        <section class="filters-section">
+            <h2>Filtros de Búsqueda</h2>
+            <div class="filter-controls">
+                <button class="btn-filter active" data-filter="todas">Todas</button>
+                <button class="btn-filter" data-filter="disponibles">Disponibles</button>
+                <button class="btn-filter" data-filter="reservadas">Reservadas</button>
+            </div>
+        </section>
+
+        <!-- Contenedor de Habitaciones -->
+        <section class="rooms-section">
+            <h2>Nuestras Habitaciones</h2>
+            <div id="rooms-grid" class="rooms-grid">
+                <!-- Se genera dinámicamente con JS -->
+            </div>
+        </section>
+    </main>
+
+    <script src="./abc.js"></script>
+</body>
+</html>
