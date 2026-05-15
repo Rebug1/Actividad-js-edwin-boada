@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "texto": "Crear una tarea desde el formulario",
+    "completada": false
+  },
+  {
+    "id": 3,
+    "texto": "Filtrar solo las tareas pendientes",
+    "completada": false
+  },
+  {
+    "id": 4,
+    "texto": "Contar tareas completadas con reduce",
+    "completada": true
+  },
+  {
+    "id": 5,
+    "texto": "Renderizar la lista con template literals",
+    "completada": false
+  }
+]

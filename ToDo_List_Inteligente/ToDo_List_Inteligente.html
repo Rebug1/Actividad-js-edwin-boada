@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Adrian Vasquez Perez" />
+  <title>Lista de Tareas Inteligente</title>
+
+  <link rel="stylesheet" href="ToDo_List_Inteligente.css" />
+</head>
+<body>
+  <main class="contenedor">
+    <h1>Lista de Tareas Inteligente</h1>
+    <p class="objetivo">Construir una aplicaci&oacute;n de tareas pendientes.</p>
+
+    <form class="grupo-entrada" id="formulario-tarea">
+      <input type="text" id="entrada-tarea" placeholder="Escribe una tarea..." autocomplete="off" />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <section class="filtros" aria-label="Filtros de tareas">
+      <button type="button" class="filtro-activo" data-filtro="todas">Todas</button>
+      <button type="button" data-filtro="pendientes">Pendientes</button>
+      <button type="button" data-filtro="completadas">Completadas</button>
+    </section>
+
+    <ul class="lista-tareas" id="lista-tareas"></ul>
+
+    <section class="estadisticas" id="estadisticas" aria-live="polite"></section>
+  </main>
+
+  <script src="ToDo_List_Inteligente.js"></script>
+</body>
+</html>
